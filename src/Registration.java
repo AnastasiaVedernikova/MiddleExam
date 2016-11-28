@@ -5,8 +5,8 @@ import java.util.List;
  * Created by cs.ucu.edu.ua on 28.11.2016.
  */
 public class Registration{
-    Integer id;
-    List<Card> cards;
+    private Integer id = 0;
+    private List<Card> cards = new ArrayList<Card>();
     public Card createCard(CardType type){
         Card card = new Card();
         card.setType(type);
